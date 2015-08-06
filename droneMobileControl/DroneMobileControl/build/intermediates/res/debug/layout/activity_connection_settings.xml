@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="yeow.tk.devicegravity.ConnectionSettings"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvSTART"
+        android:text="DRONECONTROLL"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"/>
+    <TextView android:text="Geben Sie die Ziel IP- Adresse an"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/tvIP"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText android:text=""
+        android:id="@+id/ETIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType=""
+        android:hint="192.164.1.3"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button android:text="Connect"
+        android:id="@+id/Btip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onIPClick"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
+<!-- From: file:/home/aaron/AndroidStudioProjects/droneMobileControl/droneMobileControl/DroneMobileControl/src/main/res/layout/activity_connection_settings.xml -->

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+    <RelativeLayout
+        android:id="@+id/layout_joystick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/background"
+        android:layout_marginEnd="90dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+    </RelativeLayout>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:id="@+id/fly"
+        android:text="Starten"
+        android:onClick="onClickStarten"
+        android:layout_marginTop="40dp"
+        android:textSize="16dp"
+        android:background="#b3b1b2"/>
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:id="@+id/disconnect"
+            android:text= "Verbindung Trennen"
+            android:layout_marginTop="200dp"
+            android:onClick="onClickDisconnect"
+            android:background="#b3b1b2"/>
+    />
+    <TextView
+        android:id="@+id/tvCounter"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:textSize="16sp"
+        android:text="00:00"
+        android:layout_marginLeft="110dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout><!-- From: file:/home/aaron/AndroidStudioProjects/droneMobileControl/droneMobileControl/DroneMobileControl/src/main/res/layout/activity_main.xml -->
